@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-color: rgb(190, 176, 176);
+    color: rgb(139, 10, 73);
+
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+
+    /*font: normal 16px 'Roboto', sans-serif; */
+
+    /*font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    }
+
+a {
+    color: rgb(70, 3, 101);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+
+
+
+
+    .avatar {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.75);
+    }
+
+    .info {
+        display: flex;
+        margin-bottom: 20px;
+     }
+     
+
+
+     @media (max-width:700px) {
+        .info {
+            text-align: center;
+            display: block;
+        }
+     }
+
+
+
+     .info-text {
+        margin-left: 40px;
+     }
+
+     .info-text h4 {
+        margin-bottom: 10px;
+     }
+
+    
+    .info p{
+        color: rgb(7, 0, 5);
+        margin: 0;
+        /*font-style:italic;*/
+        /*font-weight: 400;*/
+        /*text-decoration: wavy*/
+        /*letter-spacing: 2px;*/ 
+        word-spacing: 2px;
+        }
+
+        /* Box Model*/
+
+        .container{
+            max-width: 750px;
+            margin: auto;
+            padding-top: 30px;
+        }
+
+
+        /* .social {
+        background: red;   
+ */
+
+        /*}
+
+       /*  .box-model > div {
+            float: left;
+            background: black;
+            height: 200px;
+            width: 25%;
+            border: 4px solid red;
+            box-sizing: border-box;
+
+        } */
+
+        .bg-1 {
+            background: rgb(196, 196, 147);
+        }
+
+        .bg-2 {
+            background: rgb(7, 1, 8);
+        }
+
+        .bg-3 {
+            background: rgb(150, 216, 185);
+        }
+
+        .bg-4 {
+            background: rgb(158, 151, 235);
+        }
+
+        .bg-5 {
+            background: rgb(195, 195, 193);
+        }
+
+
+        .card {
+         padding: 15px 20px;
+         margin-bottom: 20px;
+         border-radius: 20px;
+        }
+
+        .list {
+            padding: 0 20px;
+            
+        }
+
+        .list li {
+            margin-bottom: 10px;
+        }
+
+        .table {
+            width: 100%;
+        }
+
+        .table td {
+            padding-bottom: 10px;
+        }
+
+        .table td:nth-child(2) {
+            color: rgb(82, 23, 169); ;
+        }
+
+        .contact h2 {
+            text-align: center;
+            margin-bottom: 40px;
+
+        }
+
+        .tele h2 {
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+
+        .form-group label {
+            display: block;
+            font-size: 14px;
+            color: rgb(144, 5, 5);
+        }
+
+        .form-group input,
+        .form-group textarea {
+            width: 70%;
+            box-sizing: border-box;
+            border: none;
+            font-family: inherit;
+            }
+
+            .btn {
+            background: #111;
+            padding: 15px 20px;
+            color: #fff;
+            border: none;
+            font-family: inherit;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            opacity: 0.9;
+        }
